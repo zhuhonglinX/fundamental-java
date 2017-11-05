@@ -4,13 +4,14 @@ public interface MyList<E> {
     int size();
     boolean isEmpty();
 
-    E get(int i);
-    void set(int i, E element);
+    E get(int index);
+    void set(int index, E element);
+    void add(E element);
     void add(int index, E element);
     E remove(int index);
-    boolean remove(Object o);
+    boolean remove(E element);
 
-    int indexOf();
-    int lastIndexOf(Object o);
+    int indexOf(E element);
+    int lastIndexOf(E element);
 
 }
