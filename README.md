@@ -11,6 +11,7 @@ Collection
 │ └ Vector
 │　 └ Stack
 └ Set
+
 Map
 ├ Hashtable
 ├ HashMap
